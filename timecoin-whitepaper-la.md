@@ -464,5 +464,5 @@ Nummus Temporis nullas regulas novas creavit; solummodo leges fundamentales univ
 
 
 
-\*Subscriptum: Dao Heng Wu Ming\*
+Subscriptum: Dao Heng Wu Ming
 
