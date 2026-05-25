@@ -1,6 +1,6 @@
 
 
-Time Coin: A Time-Based Decentralized Currency White Paper
+# Time Coin: A Time-Based Decentralized Currency White Paper
 
 Tian zhi dao, sun you yu er bu bu zu.
 — Tao Te Ching, Chapter 77
