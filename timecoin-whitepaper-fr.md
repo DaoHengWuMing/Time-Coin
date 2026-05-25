@@ -1,4 +1,4 @@
-\# Time Coin : Livre blanc d'une monnaie décentralisée basée sur le temps
+# Time Coin : Livre blanc d'une monnaie décentralisée basée sur le temps
 
 
 
@@ -8,7 +8,7 @@
 
 
 
-\## Résumé
+## Résumé
 
 
 
@@ -24,11 +24,11 @@ Le Time Coin ne tente pas de concevoir l’équité ; il est l’équité elle-m
 
 
 
-\---
+---
 
 
 
-\## Le problème
+## Le problème
 
 
 
@@ -36,9 +36,9 @@ Depuis la naissance de Bitcoin, toutes les cryptomonnaies ont échoué à résou
 
 
 
-\- Le monopole du capital sur le droit d’émission monétaire : dans le mécanisme PoW, le capital peut monopoliser le droit de tenue de registre et d’émission en achetant de la puissance de calcul ; dans le mécanisme PoS, le capital peut monopoliser le droit de participation et d’émission en détenant des jetons ; tous les autres mécanismes de consensus finissent par se muer en un jeu de capital.
+- Le monopole du capital sur le droit d’émission monétaire : dans le mécanisme PoW, le capital peut monopoliser le droit de tenue de registre et d’émission en achetant de la puissance de calcul ; dans le mécanisme PoS, le capital peut monopoliser le droit de participation et d’émission en détenant des jetons ; tous les autres mécanismes de consensus finissent par se muer en un jeu de capital.
 
-\- L’exploitation causée par l’asymétrie d’information : l’historique de circulation et les flux de fonds sont occultés, ce qui permet au blanchiment d’argent, à la fraude et aux activités spéculatives de prospérer.
+- L’exploitation causée par l’asymétrie d’information : l’historique de circulation et les flux de fonds sont occultés, ce qui permet au blanchiment d’argent, à la fraude et aux activités spéculatives de prospérer.
 
 
 
@@ -46,17 +46,17 @@ La racine du problème réside dans le fait que toutes ces monnaies tentent de c
 
 
 
-\*\*La seule ressource qui ne peut être achetée par le capital, qui ne peut être accélérée et qui ne peut être falsifiée, c’est le temps.\*\*  
+*\*La seule ressource qui ne peut être achetée par le capital, qui ne peut être accélérée et qui ne peut être falsifiée, c’est le temps.\*\*  
 
-\*\*La seule méthode capable d’éliminer totalement l’exploitation est la transparence complète et inconditionnelle.\*\*
-
-
-
-\---
+*\*La seule méthode capable d’éliminer totalement l’exploitation est la transparence complète et inconditionnelle.\*\*
 
 
 
-\## Trois règles fondamentales et inébranlables
+---
+
+
+
+## Trois règles fondamentales et inébranlables
 
 
 
@@ -64,7 +64,7 @@ L’intégralité des règles du Time Coin se compose uniquement des trois artic
 
 
 
-\### Règle un : Un appareil, une voix, un portefeuille
+### Règle un : Un appareil, une voix, un portefeuille
 
 
 
@@ -108,7 +108,7 @@ N’importe quel appareil, en n’importe quel lieu, reçoit exactement le même
 
 
 
-\*\*Verrouillage de la ligne temporelle :\*\*  
+*\*Verrouillage de la ligne temporelle :\*\*  
 
 La vie économique d’un appareil physique possède une exclusivité absolue. Lorsque la puce PUF d’un appareil est activée pour la première fois par un client conforme basé sur ce protocole, un drapeau irréversible de « verrou de protocole » est généré à l’intérieur de l’enclave sécurisée de la PUF. Une fois verrouillée, cette puce PUF refuse absolument, au niveau physique, d’effectuer toute poignée de main ou tout calcul de signature avec tout autre client d’une bifurcation du protocole.
 
@@ -122,7 +122,7 @@ Ce protocole prive un appareil physique unique du droit de détenir simultanéme
 
 
 
-\### Règle deux : Étalon-temps · Transparence intégrale de la chaîne
+### Règle deux : Étalon-temps · Transparence intégrale de la chaîne
 
 
 
@@ -130,67 +130,67 @@ L’unique base d’émission du Time Coin est le temps de calcul en ligne véri
 
 
 
-\- Pas de pré-minage, pas de récompense pour les fondateurs, pas de part institutionnelle, aucune forme de distribution anticipée.
+- Pas de pré-minage, pas de récompense pour les fondateurs, pas de part institutionnelle, aucune forme de distribution anticipée.
 
-\- Il n’y a pas de plafond d’offre totale fixe ; le volume d’émission est automatiquement proportionnel au nombre de nœuds actifs sur l’ensemble du réseau.
+- Il n’y a pas de plafond d’offre totale fixe ; le volume d’émission est automatiquement proportionnel au nombre de nœuds actifs sur l’ensemble du réseau.
 
-\- Il n’y a pas de compensation pour le temps hors ligne ; seuls les nœuds qui accomplissent des calculs VDF continus en ligne peuvent recevoir des Time Coins.
+- Il n’y a pas de compensation pour le temps hors ligne ; seuls les nœuds qui accomplissent des calculs VDF continus en ligne peuvent recevoir des Time Coins.
 
-\- Tous les nœuds calculent simultanément la même fonction de délai vérifiable (VDF) sur la base du même hash de bloc Bitcoin.
+- Tous les nœuds calculent simultanément la même fonction de délai vérifiable (VDF) sur la base du même hash de bloc Bitcoin.
 
-\- La nature non parallélisable de la VDF garantit que la seule différence dans le temps d’achèvement entre tous les nœuds est due à la variance physique.
+- La nature non parallélisable de la VDF garantit que la seule différence dans le temps d’achèvement entre tous les nœuds est due à la variance physique.
 
-\- Tous les appareils qui terminent le calcul plus tôt doivent attendre la diffusion réseau du prochain cycle de consensus pour continuer.
+- Tous les appareils qui terminent le calcul plus tôt doivent attendre la diffusion réseau du prochain cycle de consensus pour continuer.
 
-\- Le cycle de consensus est un multiple entier du nombre de calculs VDF, déterminé par un vote pondéré en temps réel de tous les nœuds.
+- Le cycle de consensus est un multiple entier du nombre de calculs VDF, déterminé par un vote pondéré en temps réel de tous les nœuds.
 
-\- À chaque cycle de consensus de calcul VDF continu accompli, tous les nœuds actifs reçoivent simultanément un et un seul Time Coin.
+- À chaque cycle de consensus de calcul VDF continu accompli, tous les nœuds actifs reçoivent simultanément un et un seul Time Coin.
 
-\- Chaque Time Coin enregistrera de manière permanente la hauteur de bloc de sa naissance et l’identifiant PUF de l’appareil générateur.
+- Chaque Time Coin enregistrera de manière permanente la hauteur de bloc de sa naissance et l’identifiant PUF de l’appareil générateur.
 
-\- Chaque transaction de chaque Time Coin enregistre de façon permanente l’heure de la transaction et les identifiants de portefeuille de l’expéditeur et du destinataire, réalisant ainsi un registre indépendant par Time Coin.
+- Chaque transaction de chaque Time Coin enregistre de façon permanente l’heure de la transaction et les identifiants de portefeuille de l’expéditeur et du destinataire, réalisant ainsi un registre indépendant par Time Coin.
 
-\- La propriété du Time Coin ne peut être transférée que par transfert pair-à-pair ; toute forme d’exportation, de duplication ou de sauvegarde est invalide.
+- La propriété du Time Coin ne peut être transférée que par transfert pair-à-pair ; toute forme d’exportation, de duplication ou de sauvegarde est invalide.
 
-\- Chaque Time Coin porte intrinsèquement une chaîne d’historique de transactions complète ; tout transfert de propriété doit ajouter un nouvel enregistrement de transaction à la chaîne d’historique de ce Time Coin même.
+- Chaque Time Coin porte intrinsèquement une chaîne d’historique de transactions complète ; tout transfert de propriété doit ajouter un nouvel enregistrement de transaction à la chaîne d’historique de ce Time Coin même.
 
-\- Chaque transaction doit être validée par la signature de la puce PUF de l’appareil émetteur avant de pouvoir prendre effet.
+- Chaque transaction doit être validée par la signature de la puce PUF de l’appareil émetteur avant de pouvoir prendre effet.
 
-\- Chaque Time Coin est l’unité minimale, indivisible, et ne peut être échangé qu’en multiples entiers.
+- Chaque Time Coin est l’unité minimale, indivisible, et ne peut être échangé qu’en multiples entiers.
 
-\- Toute donnée de Time Coin qui quitte son portefeuille correspondant perd sa chaîne d’historique complète, ne peut être vérifiée par les nœuds du réseau entier et est considérée comme une monnaie invalide.
-
-
-
-\*\*Définition du Time Coin : Unité et circulation\*\*
+- Toute donnée de Time Coin qui quitte son portefeuille correspondant perd sa chaîne d’historique complète, ne peut être vérifiée par les nœuds du réseau entier et est considérée comme une monnaie invalide.
 
 
 
-\- \*\*Unité minimale : 1 Time Coin\*\*  
+*\*Définition du Time Coin : Unité et circulation\*\*
+
+
+
+- \*\*Unité minimale : 1 Time Coin\*\*  
 
 &#x20; Le Time Coin est une unité de valeur complète, indivisible, insécable et non subdivisible, correspondant à la production temporelle unique d’un seul appareil durant un cycle de consensus.
 
 
 
-\- \*\*Ontologie non fusionnable du Time Coin\*\*  
+- \*\*Ontologie non fusionnable du Time Coin\*\*  
 
 &#x20; Aucun multiple de Time Coins ne peut être fusionné, combiné ou compressé. Chaque Time Coin, de sa naissance jusqu’à la fin de sa circulation, conserve perpétuellement une identité indépendante et une chaîne d’historique indépendante.
 
 
 
-\- \*\*Transactions en nombres entiers uniquement\*\*  
+- \*\*Transactions en nombres entiers uniquement\*\*  
 
 &#x20; Tous les transferts, paiements et échanges ne peuvent être effectués qu’en nombres entiers : 1, 2, 3… Pas de décimales, pas de division pour rendre la monnaie.
 
 
 
-\- \*\*Historique uniquement extensible, jamais modifiable\*\*  
+- \*\*Historique uniquement extensible, jamais modifiable\*\*  
 
 &#x20; L’historique des transactions de chaque Time Coin ne peut que recevoir de nouveaux enregistrements ; il ne peut être supprimé, altéré, écrasé, fusionné ou simplifié.
 
 
 
-\- \*\*Quitter le portefeuille signifie la mort\*\*  
+- \*\*Quitter le portefeuille signifie la mort\*\*  
 
 &#x20; Le seul environnement légitime pour l’existence d’un Time Coin est l’enclave matérielle sécurisée au sein de la zone mémoire du « portefeuille chaud », protégée par le chiffrement de niveau matériel de la puce PUF de l’appareil.
 
