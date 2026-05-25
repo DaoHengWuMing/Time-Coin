@@ -1,4 +1,4 @@
-\# Time Coin: Ein Weißbuch über eine zeitbasierte dezentrale Währung
+# Time Coin: Ein Weißbuch über eine zeitbasierte dezentrale Währung
 
 
 
@@ -8,7 +8,7 @@
 
 
 
-\## Zusammenfassung
+## Zusammenfassung
 
 
 
@@ -24,11 +24,11 @@ Time Coin versucht nicht, Fairness zu gestalten; es ist die Fairness selbst. Es 
 
 
 
-\---
+---
 
 
 
-\## Das Problem
+## Das Problem
 
 
 
@@ -36,9 +36,9 @@ Seit der Entstehung von Bitcoin haben alle Kryptowährungen zwei grundlegende Pr
 
 
 
-\- Das Kapitalmonopol über das Geldausgaberecht: Unter dem PoW-Mechanismus kann Kapital durch den Kauf von Rechenleistung das Buchführungs- und Ausgaberecht monopolisieren; unter dem PoS-Mechanismus kann Kapital durch das Halten von Token das Staking- und Ausgaberecht monopolisieren; alle übrigen Konsensmechanismen entwickeln sich letztlich zu einem Spiel des Kapitals.
+- Das Kapitalmonopol über das Geldausgaberecht: Unter dem PoW-Mechanismus kann Kapital durch den Kauf von Rechenleistung das Buchführungs- und Ausgaberecht monopolisieren; unter dem PoS-Mechanismus kann Kapital durch das Halten von Token das Staking- und Ausgaberecht monopolisieren; alle übrigen Konsensmechanismen entwickeln sich letztlich zu einem Spiel des Kapitals.
 
-\- Ausbeutung durch Informationsasymmetrie: Die Umlaufgeschichte und die Geldflüsse werden verschleiert, wodurch Schwarzgeld, Betrug und Spekulation gedeihen können.
+- Ausbeutung durch Informationsasymmetrie: Die Umlaufgeschichte und die Geldflüsse werden verschleiert, wodurch Schwarzgeld, Betrug und Spekulation gedeihen können.
 
 
 
@@ -52,11 +52,11 @@ Die Wurzel des Problems liegt darin, dass alle derartigen Währungen versuchen, 
 
 
 
-\---
+---
 
 
 
-\## Drei unerschütterliche Kernregeln
+## Drei unerschütterliche Kernregeln
 
 
 
@@ -64,7 +64,7 @@ Das gesamte Regelwerk von Time Coin besteht nur aus den folgenden drei Artikeln.
 
 
 
-\### Regel eins: Ein Gerät, eine Stimme, eine Brieftasche
+### Regel eins: Ein Gerät, eine Stimme, eine Brieftasche
 
 
 
@@ -122,7 +122,7 @@ Dieses Protokoll entzieht einem einzelnen physischen Gerät das Recht, mehrere z
 
 
 
-\### Regel zwei: Zeitstandard · Vollständige Kettentransparenz
+### Regel zwei: Zeitstandard · Vollständige Kettentransparenz
 
 
 
@@ -130,35 +130,35 @@ Die alleinige Ausgabegrundlage von Time Coin ist nachweisbare Online-Rechenzeit.
 
 
 
-\- Kein Pre-Mining, keine Gründerbelohnungen, keine institutionellen Anteile, keinerlei Form von Vorabverteilung.
+- Kein Pre-Mining, keine Gründerbelohnungen, keine institutionellen Anteile, keinerlei Form von Vorabverteilung.
 
-\- Es gibt keine feste Obergrenze für das Gesamtangebot; das Ausgabevolumen ist automatisch proportional zur Anzahl der aktiven Knoten im gesamten Netzwerk.
+- Es gibt keine feste Obergrenze für das Gesamtangebot; das Ausgabevolumen ist automatisch proportional zur Anzahl der aktiven Knoten im gesamten Netzwerk.
 
-\- Es gibt keine Kompensation für Offline-Zeit; nur Knoten, die kontinuierliche VDF-Berechnungen online abschließen, können Time Coins erhalten.
+- Es gibt keine Kompensation für Offline-Zeit; nur Knoten, die kontinuierliche VDF-Berechnungen online abschließen, können Time Coins erhalten.
 
-\- Alle Knoten berechnen gleichzeitig dieselbe Verifiable Delay Function (VDF) auf Basis desselben Bitcoin-Block-Hashes.
+- Alle Knoten berechnen gleichzeitig dieselbe Verifiable Delay Function (VDF) auf Basis desselben Bitcoin-Block-Hashes.
 
-\- Die Nichtparallelisierbarkeit der VDF stellt sicher, dass der einzige Unterschied in der Berechnungszeit zwischen allen Knoten auf physischer Varianz beruht.
+- Die Nichtparallelisierbarkeit der VDF stellt sicher, dass der einzige Unterschied in der Berechnungszeit zwischen allen Knoten auf physischer Varianz beruht.
 
-\- Alle Geräte, die die Berechnung vorzeitig abschließen, müssen auf die netzweite Aussendung des nächsten Konsenszyklus warten, um fortzufahren.
+- Alle Geräte, die die Berechnung vorzeitig abschließen, müssen auf die netzweite Aussendung des nächsten Konsenszyklus warten, um fortzufahren.
 
-\- Der Konsenszyklus ist ein ganzzahliges Vielfaches der Anzahl der VDF-Berechnungen und wird durch gewichtete Echtzeit-Abstimmung aller Knoten bestimmt.
+- Der Konsenszyklus ist ein ganzzahliges Vielfaches der Anzahl der VDF-Berechnungen und wird durch gewichtete Echtzeit-Abstimmung aller Knoten bestimmt.
 
-\- Für jeden abgeschlossenen Konsenszyklus kontinuierlicher VDF-Berechnung erhalten alle aktiven Knoten gleichzeitig einen und nur einen Time Coin.
+- Für jeden abgeschlossenen Konsenszyklus kontinuierlicher VDF-Berechnung erhalten alle aktiven Knoten gleichzeitig einen und nur einen Time Coin.
 
-\- Jeder einzelne Time Coin wird dauerhaft die Blockhöhe seiner Entstehung und die PUF-Kennung des erzeugenden Geräts aufzeichnen.
+- Jeder einzelne Time Coin wird dauerhaft die Blockhöhe seiner Entstehung und die PUF-Kennung des erzeugenden Geräts aufzeichnen.
 
-\- Jede Transaktion jedes Time Coins zeichnet dauerhaft die Transaktionszeit und die Brieftaschenkennungen von Sender und Empfänger auf, wodurch ein unabhängiges Hauptbuch pro Time Coin realisiert wird.
+- Jede Transaktion jedes Time Coins zeichnet dauerhaft die Transaktionszeit und die Brieftaschenkennungen von Sender und Empfänger auf, wodurch ein unabhängiges Hauptbuch pro Time Coin realisiert wird.
 
-\- Das Eigentum an Time Coin kann nur durch Peer-to-Peer-Übertragung übertragen werden; jegliche Form von Export, Vervielfältigung oder Sicherung ist ungültig.
+- Das Eigentum an Time Coin kann nur durch Peer-to-Peer-Übertragung übertragen werden; jegliche Form von Export, Vervielfältigung oder Sicherung ist ungültig.
 
-\- Jeder Time Coin trägt von Natur aus eine vollständige Transaktionshistorienkette; jede Eigentumsübertragung muss einen neuen Transaktionsdatensatz zur Historienkette des Time Coins selbst hinzufügen.
+- Jeder Time Coin trägt von Natur aus eine vollständige Transaktionshistorienkette; jede Eigentumsübertragung muss einen neuen Transaktionsdatensatz zur Historienkette des Time Coins selbst hinzufügen.
 
-\- Jede Überweisung muss durch die Signatur des PUF-Chips des sendenden Geräts validiert werden, bevor sie wirksam wird.
+- Jede Überweisung muss durch die Signatur des PUF-Chips des sendenden Geräts validiert werden, bevor sie wirksam wird.
 
-\- Jeder Time Coin ist die kleinste Einheit, unteilbar, und kann nur in ganzzahligen Vielfachen gehandelt werden.
+- Jeder Time Coin ist die kleinste Einheit, unteilbar, und kann nur in ganzzahligen Vielfachen gehandelt werden.
 
-\- Jegliche Time-Coin-Daten, die ihre entsprechende Brieftasche verlassen, verlieren ihre vollständige Historienkette, können nicht von den Knoten des gesamten Netzwerks verifiziert werden und gelten als ungültige Währung.
+- Jegliche Time-Coin-Daten, die ihre entsprechende Brieftasche verlassen, verlieren ihre vollständige Historienkette, können nicht von den Knoten des gesamten Netzwerks verifiziert werden und gelten als ungültige Währung.
 
 
 
@@ -166,31 +166,31 @@ Die alleinige Ausgabegrundlage von Time Coin ist nachweisbare Online-Rechenzeit.
 
 
 
-\- \*\*Kleinste Einheit: 1 Time Coin\*\*  
+- \*\*Kleinste Einheit: 1 Time Coin\*\*  
 
 &#x20; Der Time Coin ist eine unteilbare, unzerschneidbare, nicht unterteilbare vollständige Werteinheit, die der einzigartigen Zeitleistung eines einzelnen Geräts innerhalb eines Konsenszyklus entspricht.
 
 
 
-\- \*\*Nicht zusammenführbare Time-Coin-Ontologie\*\*  
+- \*\*Nicht zusammenführbare Time-Coin-Ontologie\*\*  
 
 &#x20; Mehrere Time Coins können nicht fusioniert, zusammengeführt oder komprimiert werden. Jeder Time Coin behält von seiner Entstehung bis zum endgültigen Ende seines Umlaufs stets eine unabhängige Identität und eine unabhängige Historienkette.
 
 
 
-\- \*\*Nur ganzzahlige Transaktionen\*\*  
+- \*\*Nur ganzzahlige Transaktionen\*\*  
 
 &#x20; Alle Überweisungen, Zahlungen und Tauschvorgänge können nur in ganzzahligen Mengen von 1, 2, 3... durchgeführt werden; keine Dezimalstellen, kein Wechselgeld durch Teilung.
 
 
 
-\- \*\*Historie wird nur erweitert, nie verringert; nur fortgesetzt, nie geändert\*\*  
+- \*\*Historie wird nur erweitert, nie verringert; nur fortgesetzt, nie geändert\*\*  
 
 &#x20; Die Transaktionshistorie jedes Time Coins kann nur neue Einträge hinzufügen; sie kann nicht gelöscht, manipuliert, überschrieben, zusammengeführt oder vereinfacht werden.
 
 
 
-\- \*\*Verlässt es die Brieftasche, bedeutet das den Tod\*\*  
+- \*\*Verlässt es die Brieftasche, bedeutet das den Tod\*\*  
 
 &#x20; Die einzige legitime Umgebung für die Existenz eines Time Coins ist die hardwaregesicherte Enklave im Speicherbereich der „Hot Wallet“, geschützt durch die Verschlüsselung auf Hardwareebene des PUF-Chips des Geräts.
 
@@ -206,7 +206,7 @@ Die alleinige Ausgabegrundlage von Time Coin ist nachweisbare Online-Rechenzeit.
 
 
 
-\- \*\*Transaktionen sind Status-Anfügung, nicht Datenverschiebung\*\*  
+- \*\*Transaktionen sind Status-Anfügung, nicht Datenverschiebung\*\*  
 
 &#x20; Wenn ein Benutzer ein altes Handy durch ein neues ersetzt, fühlt es sich so an, als ob „die Time Coins auf das neue Handy übertragen wurden“, aber in der zugrunde liegenden Logik:  
 
@@ -216,7 +216,7 @@ Die alleinige Ausgabegrundlage von Time Coin ist nachweisbare Online-Rechenzeit.
 
 
 
-\- \*\*Die einzige Aufgabe der Blockchain: Zeitnotariatsfunktion\*\*  
+- \*\*Die einzige Aufgabe der Blockchain: Zeitnotariatsfunktion\*\*  
 
 &#x20; Das zugrunde liegende Netzwerk dieses Protokolls (wie die Bitcoin-Blockchain) übernimmt keine „Buchführungs“-Funktion; es spielt lediglich die Rolle eines „absoluten Zeitnotars“.  
 
@@ -224,7 +224,7 @@ Die alleinige Ausgabegrundlage von Time Coin ist nachweisbare Online-Rechenzeit.
 
 
 
-\### Regel drei: Universelle Echtzeit-Governance
+### Regel drei: Universelle Echtzeit-Governance
 
 
 
@@ -232,29 +232,29 @@ Die einzige Möglichkeit, irgendeinen Systemparameter anzupassen, ist die kontin
 
 
 
-\- Der einzige anpassbare Parameter ist die Länge des Konsenszyklus.
+- Der einzige anpassbare Parameter ist die Länge des Konsenszyklus.
 
-\- Das System gibt 15 Optionen für exponentiell wachsende Konsenszyklen vor; jeder Knoten kann jederzeit eine beliebige Option wählen und seine Wahl auch jederzeit ändern.
+- Das System gibt 15 Optionen für exponentiell wachsende Konsenszyklen vor; jeder Knoten kann jederzeit eine beliebige Option wählen und seine Wahl auch jederzeit ändern.
 
-\- Die Stimme, als Teil des Knotenstatus, verbreitet sich automatisch mit dem Herzschlag des Knotens im gesamten Netzwerk.
+- Die Stimme, als Teil des Knotenstatus, verbreitet sich automatisch mit dem Herzschlag des Knotens im gesamten Netzwerk.
 
-\- Alle Knoten berechnen und verifizieren unabhängig das netzweite Abstimmungsergebnis, nehmen die Stimmanteile der Top-10-Optionen mit den höchsten Gesamtstimmen und berechnen einen gewichteten Durchschnitt, um den aktuell gültigen Konsenszyklus zu ermitteln.
+- Alle Knoten berechnen und verifizieren unabhängig das netzweite Abstimmungsergebnis, nehmen die Stimmanteile der Top-10-Optionen mit den höchsten Gesamtstimmen und berechnen einen gewichteten Durchschnitt, um den aktuell gültigen Konsenszyklus zu ermitteln.
 
-\- Der gültige Konsenszyklus wird alle 10 Minuten automatisch aktualisiert und tritt sofort in Kraft; es gibt keine Abstimmungsperiode, keinen Genehmigungsprozess und keinen zentralen Statistik-Knoten.
+- Der gültige Konsenszyklus wird alle 10 Minuten automatisch aktualisiert und tritt sofort in Kraft; es gibt keine Abstimmungsperiode, keinen Genehmigungsprozess und keinen zentralen Statistik-Knoten.
 
-\- Berechtigungsnachweise, die ohne Akzeptanz des Konsenses oder durch eigenmächtige Manipulation des Zeitzyklus erzeugt werden, besitzen innerhalb dieser Zeitkette keine Time-Coin-Eigenschaften, werden als ungültige Daten betrachtet und von allen Knoten des Netzwerks direkt für Empfang, Verifizierung und Transaktion abgelehnt.
+- Berechtigungsnachweise, die ohne Akzeptanz des Konsenses oder durch eigenmächtige Manipulation des Zeitzyklus erzeugt werden, besitzen innerhalb dieser Zeitkette keine Time-Coin-Eigenschaften, werden als ungültige Daten betrachtet und von allen Knoten des Netzwerks direkt für Empfang, Verifizierung und Transaktion abgelehnt.
 
-\- Konsens kann bereits ab zwei online befindlichen Geräten gebildet werden.
+- Konsens kann bereits ab zwei online befindlichen Geräten gebildet werden.
 
-\- Die Anpassung jeglicher anderer Parameter ist illegal.
-
-
-
-\---
+- Die Anpassung jeglicher anderer Parameter ist illegal.
 
 
 
-\## Selbstregulierungsmechanismus
+---
+
+
+
+## Selbstregulierungsmechanismus
 
 
 
@@ -262,7 +262,7 @@ Time Coin benötigt keinerlei menschliches Eingreifen; es ist ein perfekt selbst
 
 
 
-\### Automatische Auflösung von Kapitalangriffen
+### Automatische Auflösung von Kapitalangriffen
 
 
 
@@ -270,15 +270,15 @@ Wenn eine Kapitalpartei eine große Anzahl von Geräten kauft, um das Ausgaberec
 
 
 
-\- Zunahme der Gesamtnetzwerkknotenzahl → Time-Coin-Ausgabevolumen steigt synchron → Preis eines einzelnen Time Coins fällt automatisch.
+- Zunahme der Gesamtnetzwerkknotenzahl → Time-Coin-Ausgabevolumen steigt synchron → Preis eines einzelnen Time Coins fällt automatisch.
 
-\- Alle Knoten stimmen für eine Verlängerung des Konsenszyklus → Der Ertrag pro Zeiteinheit aller Knoten sinkt entsprechend.
+- Alle Knoten stimmen für eine Verlängerung des Konsenszyklus → Der Ertrag pro Zeiteinheit aller Knoten sinkt entsprechend.
 
-\- Die starren Kosten der Kapitalpartei für Strom, Bandbreite, Räumlichkeiten, Personal usw. bleiben unverändert → Die Gewinne schrumpfen drastisch.
+- Die starren Kosten der Kapitalpartei für Strom, Bandbreite, Räumlichkeiten, Personal usw. bleiben unverändert → Die Gewinne schrumpfen drastisch.
 
-\- Groß angelegte Mining-Farmen werden mit exponentiell wachsenden manuellen Transaktionskosten konfrontiert; je größer der Maßstab, desto schwerer die Verluste.
+- Groß angelegte Mining-Farmen werden mit exponentiell wachsenden manuellen Transaktionskosten konfrontiert; je größer der Maßstab, desto schwerer die Verluste.
 
-\- Wenn die Erträge unter die Kosten fallen, schaltet die Kapitalpartei automatisch ab und verlässt das Netzwerk → Das System kehrt zum Gleichgewicht zurück.
+- Wenn die Erträge unter die Kosten fallen, schaltet die Kapitalpartei automatisch ab und verlässt das Netzwerk → Das System kehrt zum Gleichgewicht zurück.
 
 
 
@@ -286,7 +286,7 @@ Einzelne Nutzer sind nahezu überhaupt nicht betroffen (intelligente Geräte lau
 
 
 
-\### Automatische Preisstabilität
+### Automatische Preisstabilität
 
 
 
@@ -294,9 +294,9 @@ Der Wert von Time Coin ist stets am Maßstab „1 Time Coin = die nachweisbare m
 
 
 
-\- Time-Coin-Preis steigt → Mehr Nutzer betreiben Knoten → Angebot steigt → Preis fällt zurück.
+- Time-Coin-Preis steigt → Mehr Nutzer betreiben Knoten → Angebot steigt → Preis fällt zurück.
 
-\- Time-Coin-Preis fällt → Spekulanten verlassen das Netzwerk → Angebot sinkt → Preis steigt wieder.
+- Time-Coin-Preis fällt → Spekulanten verlassen das Netzwerk → Angebot sinkt → Preis steigt wieder.
 
 
 
@@ -304,7 +304,7 @@ Dadurch werden extreme Kursschwankungen und Spekulationsspielräume von vornhere
 
 
 
-\### Automatische Isolierung toxischer Vermögenswerte
+### Automatische Isolierung toxischer Vermögenswerte
 
 
 
@@ -312,19 +312,19 @@ Alle Transaktionshistorien sind vollständig offen und transparent; der Markt wi
 
 
 
-\- Time Coins, die an illegalen Transaktionen beteiligt waren, werden von den meisten Händlern und Nutzern spontan abgelehnt.
+- Time Coins, die an illegalen Transaktionen beteiligt waren, werden von den meisten Händlern und Nutzern spontan abgelehnt.
 
-\- Jede Marktteilnehmer kann aus eigenem Ermessen jeden Time Coin ablehnen, der in eine illegale Transaktion verwickelt ist, ohne dass eine Genehmigung Dritter erforderlich ist.
+- Jede Marktteilnehmer kann aus eigenem Ermessen jeden Time Coin ablehnen, der in eine illegale Transaktion verwickelt ist, ohne dass eine Genehmigung Dritter erforderlich ist.
 
-\- Es gibt keine einheitliche, verpflichtende Schwarze Liste; alle Filtermaßnahmen sind freiwillig und marktgesteuert.
-
-
-
-\---
+- Es gibt keine einheitliche, verpflichtende Schwarze Liste; alle Filtermaßnahmen sind freiwillig und marktgesteuert.
 
 
 
-\## Sicherheit
+---
+
+
+
+## Sicherheit
 
 
 
@@ -332,23 +332,23 @@ Die Sicherheit von Time Coin wird gemeinsam durch Physik und Mathematik gewährl
 
 
 
-\- \*\*Immun gegen Sybil-Angriffe:\*\* Die Kombination aus PUF und Bitcoin-Blockhöhen-Hash stellt sicher, dass ein physisches Gerät während seines gesamten Lebenszyklus nur eine einzige Knotenidentität generieren kann.
+- \*\*Immun gegen Sybil-Angriffe:\*\* Die Kombination aus PUF und Bitcoin-Blockhöhen-Hash stellt sicher, dass ein physisches Gerät während seines gesamten Lebenszyklus nur eine einzige Knotenidentität generieren kann.
 
-\- \*\*Immun gegen Rechenleistungsangriffe:\*\* VDF ist nicht parallelisierbar; die Höhe der Rechenleistung beeinflusst nicht den Ertrag pro Zeiteinheit.
+- \*\*Immun gegen Rechenleistungsangriffe:\*\* VDF ist nicht parallelisierbar; die Höhe der Rechenleistung beeinflusst nicht den Ertrag pro Zeiteinheit.
 
-\- \*\*Immun gegen Diebstahl:\*\* Der private Schlüssel der Brieftasche steht unter der vollständigen Kontrolle des Nutzers; das System speichert keinerlei private Schlüssel.
+- \*\*Immun gegen Diebstahl:\*\* Der private Schlüssel der Brieftasche steht unter der vollständigen Kontrolle des Nutzers; das System speichert keinerlei private Schlüssel.
 
-\- \*\*Immun gegen Doppelausgaben:\*\* Time Coin kann nur zwischen konformen Brieftaschen peer-to-peer übertragen werden und kann nicht unabhängig von seiner entsprechenden Brieftasche existieren.
+- \*\*Immun gegen Doppelausgaben:\*\* Time Coin kann nur zwischen konformen Brieftaschen peer-to-peer übertragen werden und kann nicht unabhängig von seiner entsprechenden Brieftasche existieren.
 
-\- \*\*Immun gegen einen 51-%-Rechenleistungsangriff:\*\* Um 51 % der Ausgaberechte zu erlangen, müsste man 51 % der intelligenten Geräte weltweit kontrollieren, was wirtschaftlich nicht machbar ist.
-
-
-
-\---
+- \*\*Immun gegen einen 51-%-Rechenleistungsangriff:\*\* Um 51 % der Ausgaberechte zu erlangen, müsste man 51 % der intelligenten Geräte weltweit kontrollieren, was wirtschaftlich nicht machbar ist.
 
 
 
-\## Forks und Evolution
+---
+
+
+
+## Forks und Evolution
 
 
 
@@ -376,15 +376,15 @@ Absolute Isolierung der Zeitdimension: Die Zeitmaßstäbe der einzelnen Fork-Cha
 
 
 
-\---
+---
 
 
 
-\## Philosophische Deklaration des Time Coin
+## Philosophische Deklaration des Time Coin
 
 
 
-\### Absolute Dezentralisierung: Die vollständige Auflösung der Macht und die Geburt eines selbst-evidenten Systems
+### Absolute Dezentralisierung: Die vollständige Auflösung der Macht und die Geburt eines selbst-evidenten Systems
 
 
 
@@ -416,11 +416,11 @@ Es gibt keine Anträge, keine Abstimmungstage, keine Community-Governance-Komite
 
 
 
-\---
+---
 
 
 
-\## Schlussfolgerung
+## Schlussfolgerung
 
 
 
@@ -428,9 +428,9 @@ Time Coin ist kein Ersatz für Bitcoin, sondern die Vollendung von Bitcoin.
 
 
 
-\- Bitcoin hat die „Unantastbarkeit des Bestands“ verwirklicht.
+- Bitcoin hat die „Unantastbarkeit des Bestands“ verwirklicht.
 
-\- Time Coin verwirklicht die „faire Teilhabe am Zuwachs“ und die „vollständige Kettentransparenz“.
+- Time Coin verwirklicht die „faire Teilhabe am Zuwachs“ und die „vollständige Kettentransparenz“.
 
 
 
@@ -448,11 +448,11 @@ Time Coin hat keine neuen Regeln geschaffen; es hat lediglich die grundlegendste
 
 
 
-\---
+---
 
 
 
-\## Anhang
+## Anhang
 
 
 
@@ -464,5 +464,5 @@ Time Coin hat keine neuen Regeln geschaffen; es hat lediglich die grundlegendste
 
 
 
-\*Unterzeichnet: Dao Heng Wu Ming\*
+Unterzeichnet: Dao Heng Wu Ming
 
