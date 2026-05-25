@@ -1,4 +1,4 @@
-\# Nummus Temporis: Liber Albus Monetae Decentralis Tempori Innixae
+# Nummus Temporis: Liber Albus Monetae Decentralis Tempori Innixae
 
 
 
@@ -8,7 +8,7 @@
 
 
 
-\## Summarium
+## Summarium
 
 
 
@@ -24,11 +24,11 @@ Nummus Temporis aequitatem excogitare non temptat; est ipsa aequitas. Nullam inf
 
 
 
-\---
+---
 
 
 
-\## Problema
+## Problema
 
 
 
@@ -36,9 +36,9 @@ Ex quo Bitcoin natum est, omnes cryptomonetae duo problemata fundamentalia solve
 
 
 
-\- Monopolium capitalis in ius monetam emittendi: sub mechanismo PoW, capitale per emptionem potentiae computatoriae potest monopolium tenere libri et ius emittendi; sub PoS, capitale per detentionem tokenorum potest monopolium tenere pignoris et ius emittendi; omnes ceteri consensus mechanismi demum in ludum capitalis evadunt.
+- Monopolium capitalis in ius monetam emittendi: sub mechanismo PoW, capitale per emptionem potentiae computatoriae potest monopolium tenere libri et ius emittendi; sub PoS, capitale per detentionem tokenorum potest monopolium tenere pignoris et ius emittendi; omnes ceteri consensus mechanismi demum in ludum capitalis evadunt.
 
-\- Exploitio ex asymmetria informationis orta: historia circulationis fluxusque pecuniae obscurantur, permittens pecuniam sordidam, fraudes et speculativam actionem vigere.
+- Exploitio ex asymmetria informationis orta: historia circulationis fluxusque pecuniae obscurantur, permittens pecuniam sordidam, fraudes et speculativam actionem vigere.
 
 
 
@@ -52,11 +52,11 @@ Radix problematis in eo est quod omnes eiusmodi monetae aequitatem in dimensione
 
 
 
-\---
+---
 
 
 
-\## Tres Regulae Fundamentales et Inconcussae
+## Tres Regulae Fundamentales et Inconcussae
 
 
 
@@ -64,7 +64,7 @@ Omnis canon Nummi Temporis his tribus solis articulis constat. Nullae exceptione
 
 
 
-\### Regula Prima: Unum Instrumentum, Una Vox, Unum Marsupium
+### Regula Prima: Unum Instrumentum, Una Vox, Unum Marsupium
 
 
 
@@ -122,7 +122,7 @@ Hoc protocollum unum instrumentum physicum iure privatium detinendi plures monet
 
 
 
-\### Regula Secunda: Mensura Temporis · Perspicuitas Omnis Catenae
+### Regula Secunda: Mensura Temporis · Perspicuitas Omnis Catenae
 
 
 
@@ -130,35 +130,35 @@ Unicum fundamentum emissionis Nummi Temporis est tempus computatorium verificabi
 
 
 
-\- Nulla prae-minatio, nulla praemia fundatoribus, nullae portiones institutionales, nulla ulla forma praedistributionis.
+- Nulla prae-minatio, nulla praemia fundatoribus, nullae portiones institutionales, nulla ulla forma praedistributionis.
 
-\- Nullus est finis superior fixus summae copiae; volumen emissionis automatice proportionale est numero nodorum activorum in omni rete.
+- Nullus est finis superior fixus summae copiae; volumen emissionis automatice proportionale est numero nodorum activorum in omni rete.
 
-\- Nulla compensatio pro tempore offline; solum nodi qui computationes continuas VDF online complent, Nummum Temporis recipere possunt.
+- Nulla compensatio pro tempore offline; solum nodi qui computationes continuas VDF online complent, Nummum Temporis recipere possunt.
 
-\- Omnes nodi simul eandem Functionem Morae Verificabilem (VDF) computant, fundati in eodem hash blocci Bitcoin.
+- Omnes nodi simul eandem Functionem Morae Verificabilem (VDF) computant, fundati in eodem hash blocci Bitcoin.
 
-\- Natura non parallelisabilis VDF efficit ut sola differentia in tempore completionis inter omnes nodos sit ob variationem physicam.
+- Natura non parallelisabilis VDF efficit ut sola differentia in tempore completionis inter omnes nodos sit ob variationem physicam.
 
-\- Omnia instrumenta quae computationem praeveniunt, exspectare debent diffusionem retealem proximi cycli consensus ut pergant.
+- Omnia instrumenta quae computationem praeveniunt, exspectare debent diffusionem retealem proximi cycli consensus ut pergant.
 
-\- Cyclus consensus est multiplex integer numeri computationum VDF, determinatus per suffragationem ponderatam realem omnium nodorum.
+- Cyclus consensus est multiplex integer numeri computationum VDF, determinatus per suffragationem ponderatam realem omnium nodorum.
 
-\- Pro unoquoque cyclo consensus computationis continuae VDF completo, omnes nodi activi simul unum et unum tantum Numum Temporis accipiunt.
+- Pro unoquoque cyclo consensus computationis continuae VDF completo, omnes nodi activi simul unum et unum tantum Numum Temporis accipiunt.
 
-\- Quisque Nummus Temporis perpetuo notabit altitudinem blocci suae nativitatis et identificatorem PUF instrumenti generantis.
+- Quisque Nummus Temporis perpetuo notabit altitudinem blocci suae nativitatis et identificatorem PUF instrumenti generantis.
 
-\- Quaeque transactio cuiusque Nummi Temporis perpetuo notat tempus transactionis et identificatores marsupiorum mittentis et recipientis, perficiens unum librum independentem pro Nummo Temporis.
+- Quaeque transactio cuiusque Nummi Temporis perpetuo notat tempus transactionis et identificatores marsupiorum mittentis et recipientis, perficiens unum librum independentem pro Nummo Temporis.
 
-\- Proprietas Nummi Temporis solum per translationem parem-ad-parem transferri potest; omnis forma exportationis, duplicationis vel salvamenti invalida est.
+- Proprietas Nummi Temporis solum per translationem parem-ad-parem transferri potest; omnis forma exportationis, duplicationis vel salvamenti invalida est.
 
-\- Quisque Nummus Temporis in se portat catenam completam historiae transactionum; quaelibet translatio proprietatis debet novum recordum transactionis catenae historiae ipsius Nummi Temporis addere.
+- Quisque Nummus Temporis in se portat catenam completam historiae transactionum; quaelibet translatio proprietatis debet novum recordum transactionis catenae historiae ipsius Nummi Temporis addere.
 
-\- Quaeque transactio debet signatura chip PUF instrumenti mittentis confirmari antequam vigorem obtineat.
+- Quaeque transactio debet signatura chip PUF instrumenti mittentis confirmari antequam vigorem obtineat.
 
-\- Quisque Nummus Temporis est unitas minima, indivisibilis, et solum in multiplicibus integris transigi potest.
+- Quisque Nummus Temporis est unitas minima, indivisibilis, et solum in multiplicibus integris transigi potest.
 
-\- Quaevis data Nummi Temporis quae suum marsupium reliquerunt, catenam historicam integram amittunt, a nodis omnis retis verificari nequeunt, et pro moneta invalida habentur.
+- Quaevis data Nummi Temporis quae suum marsupium reliquerunt, catenam historicam integram amittunt, a nodis omnis retis verificari nequeunt, et pro moneta invalida habentur.
 
 
 
@@ -166,13 +166,13 @@ Unicum fundamentum emissionis Nummi Temporis est tempus computatorium verificabi
 
 
 
-\- \*\*Unitas minima: 1 Nummus Temporis\*\*  
+- \*\*Unitas minima: 1 Nummus Temporis\*\*  
 
 &#x20; Nummus Temporis est unitas valoris plena, indivisibilis, inscindibilis, non subdividenda, respondens unico proventui temporis unius instrumenti intra unum cyclum consensus.
 
 
 
-\- \*\*Ontologia Nummi Temporis Non Unificabilis\*\*  
+- \*\*Ontologia Nummi Temporis Non Unificabilis\*\*  
 
 &#x20; Quilibet plures Nummi Temporis nec fundi, nec coniungi, nec comprimi possunt. Quisque Nummus Temporis, a nativitate usque ad finem circulationis, perpetuo identitatem independentem et catenam historiae independentem conservat.
 
@@ -184,13 +184,13 @@ Unicum fundamentum emissionis Nummi Temporis est tempus computatorium verificabi
 
 
 
-\- \*\*Historia Tantum Appenditur, Numquam Mutatur\*\*  
+- \*\*Historia Tantum Appenditur, Numquam Mutatur\*\*  
 
 &#x20; Historia transactionum cuiusque Nummi Temporis tantummodo nova acta accipere potest; non potest deleri, corrumpi, superscribi, unificari aut simplicificari.
 
 
 
-\- \*\*Exire e Marsupio Significat Mortem\*\*  
+- \*\*Exire e Marsupio Significat Mortem\*\*  
 
 &#x20; Unicus ambitus legitimus exsistentiae Nummi Temporis est saeptum securum hardware intra zonam memoriae “marsupii calidi”, protegentis per encryptationem strati hardware chipis PUF instrumenti.
 
@@ -206,7 +206,7 @@ Unicum fundamentum emissionis Nummi Temporis est tempus computatorium verificabi
 
 
 
-\- \*\*Transactiones Sunt Appendere Statum, Non Movere Data\*\*  
+- \*\*Transactiones Sunt Appendere Statum, Non Movere Data\*\*  
 
 &#x20; Cum usor telephonum vetus pro novo substituit, experientia sentitur quasi “Nummi Temporis ad novum telephonum translati sunt”, sed in logica subiacente:  
 
@@ -216,7 +216,7 @@ Unicum fundamentum emissionis Nummi Temporis est tempus computatorium verificabi
 
 
 
-\- \*\*Unicum Munus Catena Bitcoinicae: Notariatus Temporalis\*\*  
+- \*\*Unicum Munus Catena Bitcoinicae: Notariatus Temporalis\*\*  
 
 &#x20; Retis subiacens huius protocolli (qualis catena Bitcoinica) munus “libri faciendi” non assumit; solummodo functionem “notarii temporis absoluti” implet.  
 
@@ -224,7 +224,7 @@ Unicum fundamentum emissionis Nummi Temporis est tempus computatorium verificabi
 
 
 
-\### Regula Tertia: Gubernatio Universalis Temporis Realis
+### Regula Tertia: Gubernatio Universalis Temporis Realis
 
 
 
@@ -232,29 +232,29 @@ Unicus modus ullum parametrum systematis accommodandi est suffragatio continua p
 
 
 
-\- Unicus parametrus accommodabilis est duratio cycli consensus.
+- Unicus parametrus accommodabilis est duratio cycli consensus.
 
-\- Systema praestituit 15 optiones cyclorum consensus exponentialiter crescentium; quilibet nodus potest quamlibet optionem quolibet momento eligere, et etiam quamlibet electionem suam mutare quolibet momento.
+- Systema praestituit 15 optiones cyclorum consensus exponentialiter crescentium; quilibet nodus potest quamlibet optionem quolibet momento eligere, et etiam quamlibet electionem suam mutare quolibet momento.
 
-\- Suffragia, ut pars status nodi, automatice per omne rete cum pulsatione cordis nodi diffunduntur.
+- Suffragia, ut pars status nodi, automatice per omne rete cum pulsatione cordis nodi diffunduntur.
 
-\- Omnes nodi independenter computant et verificiant eventum suffragationis retealis, accipientes portiones suffragiorum 10 optionum cum summis suffragiis totalibus ad computandum medium ponderatum, sic obtinentes currentem cyclum consensus efficacem.
+- Omnes nodi independenter computant et verificiant eventum suffragationis retealis, accipientes portiones suffragiorum 10 optionum cum summis suffragiis totalibus ad computandum medium ponderatum, sic obtinentes currentem cyclum consensus efficacem.
 
-\- Cyclus consensus efficax automatice renovatur et immediate vigorem obtinet singulis 10 minutis. Nulli periodi suffragationis, nulli processus approbationis, nullus nodus statisticus centralis.
+- Cyclus consensus efficax automatice renovatur et immediate vigorem obtinet singulis 10 minutis. Nulli periodi suffragationis, nulli processus approbationis, nullus nodus statisticus centralis.
 
-\- Documenta probatoria sine acceptatione consensus aut per adulterationem cycli temporis generata, intra hanc catenam temporalem proprietates Nummi Temporis non possident, pro datis invalidis habentur, et a nodis totius retis directe recusantur pro receptione, verificatione et transactione.
+- Documenta probatoria sine acceptatione consensus aut per adulterationem cycli temporis generata, intra hanc catenam temporalem proprietates Nummi Temporis non possident, pro datis invalidis habentur, et a nodis totius retis directe recusantur pro receptione, verificatione et transactione.
 
-\- Consensus iam cum duobus vel pluribus instrumentis in linea formari potest.
+- Consensus iam cum duobus vel pluribus instrumentis in linea formari potest.
 
-\- Accomodatio cuiuslibet alterius parametri illicita est.
-
-
-
-\---
+- Accomodatio cuiuslibet alterius parametri illicita est.
 
 
 
-\## Mechanismus Autoregulativus
+---
+
+
+
+## Mechanismus Autoregulativus
 
 
 
@@ -262,7 +262,7 @@ Nummus Temporis nulla interventione humana indiget; est systema perfecte autoaeq
 
 
 
-\### Dissolutio Automatica Impetus Capitalis
+### Dissolutio Automatica Impetus Capitalis
 
 
 
@@ -270,15 +270,15 @@ Si qua pars capitalis magnum numerum instrumentorum emit temptans monopolium emi
 
 
 
-\- Numerus totalis nodorum retis augetur → volumen emissionis Nummi Temporis synchronice crescit → pretium singuli Nummi Temporis automatice cadit.
+- Numerus totalis nodorum retis augetur → volumen emissionis Nummi Temporis synchronice crescit → pretium singuli Nummi Temporis automatice cadit.
 
-\- Omnes nodi suffragantur cyclum consensus prorogandum → proventus per unitatem temporis omnium nodorum proportionaliter deminuitur.
+- Omnes nodi suffragantur cyclum consensus prorogandum → proventus per unitatem temporis omnium nodorum proportionaliter deminuitur.
 
-\- Sumptus rigidi capitalis partis pro electricitate, fascia, spatio, labore manuali etc. immutati manent → lucrum drastice minuitur.
+- Sumptus rigidi capitalis partis pro electricitate, fascia, spatio, labore manuali etc. immutati manent → lucrum drastice minuitur.
 
-\- Magnae fundi cuniculationis obviam ibunt sumptibus manualis transactionis exponentialiter crescentibus; quo maior scala, eo gravius damnum.
+- Magnae fundi cuniculationis obviam ibunt sumptibus manualis transactionis exponentialiter crescentibus; quo maior scala, eo gravius damnum.
 
-\- Cum reditus infra sumptus cadit, pars capitalis automatice clauditur et recedit → systema ad aequilibrium redit.
+- Cum reditus infra sumptus cadit, pars capitalis automatice clauditur et recedit → systema ad aequilibrium redit.
 
 
 
@@ -286,7 +286,7 @@ Usatores singulares paene omnino non afficiuntur (instrumenta intelligentia iam 
 
 
 
-\### Stabilitas Pretii Automatica
+### Stabilitas Pretii Automatica
 
 
 
@@ -294,9 +294,9 @@ Valor Nummi Temporis perpetuo ancoratus est in basi “1 Nummus Temporis = tempu
 
 
 
-\- Pretium Nummi Temporis ascendit → plures usores nodos exercent → copia crescit → pretium recidit.
+- Pretium Nummi Temporis ascendit → plures usores nodos exercent → copia crescit → pretium recidit.
 
-\- Pretium Nummi Temporis descendit → speculatores discedunt → copia decrescit → pretium resurgit.
+- Pretium Nummi Temporis descendit → speculatores discedunt → copia decrescit → pretium resurgit.
 
 
 
@@ -304,7 +304,7 @@ Hoc mechanismo intrinsice vitantur impetuosi saltus, ruinae et spatium speculati
 
 
 
-\### Isolatio Automatica Bonorum Toxicorum
+### Isolatio Automatica Bonorum Toxicorum
 
 
 
@@ -312,19 +312,19 @@ Omnes historiae transactionum perfecte apertae et perspicuae sunt; mercatus auto
 
 
 
-\- Nummi Temporis qui transactionibus illicitis interfuerunt a plerisque mercatoribus et usoribus sponte recusabuntur accipi.
+- Nummi Temporis qui transactionibus illicitis interfuerunt a plerisque mercatoribus et usoribus sponte recusabuntur accipi.
 
-\- Quilibet actor mercatus potest autonome quemlibet Numum Temporis implicatum in transactione illicita recusare, sine indigentia approbationis alicuius tertii.
+- Quilibet actor mercatus potest autonome quemlibet Numum Temporis implicatum in transactione illicita recusare, sine indigentia approbationis alicuius tertii.
 
-\- Nulla est lista nigra unificata, coacta; omnes actiones filtrationis voluntariae et mercatu actae sunt.
-
-
-
-\---
+- Nulla est lista nigra unificata, coacta; omnes actiones filtrationis voluntariae et mercatu actae sunt.
 
 
 
-\## Securitas
+---
+
+
+
+## Securitas
 
 
 
@@ -332,23 +332,23 @@ Securitas Nummi Temporis a physica et mathematica coniunctim praestatur:
 
 
 
-\- \*\*Immunitas contra Impetus Sybiles:\*\* Coniunctio PUF et hash altitudinis blocci Bitcoin efficit ut unum instrumentum physicum per totum suum cyclum vitae unicam tantum identitatem nodalem generare possit.
+- \*\*Immunitas contra Impetus Sybiles:\*\* Coniunctio PUF et hash altitudinis blocci Bitcoin efficit ut unum instrumentum physicum per totum suum cyclum vitae unicam tantum identitatem nodalem generare possit.
 
-\- \*\*Immunitas contra Impetus Potentiae Computatoriae:\*\* VDF non est parallelisabilis; planities potentiae computatoriae proventum per unitatem temporis non afficit.
+- \*\*Immunitas contra Impetus Potentiae Computatoriae:\*\* VDF non est parallelisabilis; planities potentiae computatoriae proventum per unitatem temporis non afficit.
 
-\- \*\*Immunitas contra Furtum:\*\* Clavis privata marsupii a usore plene regitur; systema nullas claves privatas recondit.
+- \*\*Immunitas contra Furtum:\*\* Clavis privata marsupii a usore plene regitur; systema nullas claves privatas recondit.
 
-\- \*\*Immunitas contra Duplicem Impensam:\*\* Nummus Temporis solum inter marsupia conformia par-ad-parem transferri potest et non potest separatim a suo marsupio correspondente exsistere.
+- \*\*Immunitas contra Duplicem Impensam:\*\* Nummus Temporis solum inter marsupia conformia par-ad-parem transferri potest et non potest separatim a suo marsupio correspondente exsistere.
 
-\- \*\*Immunitas contra Impetum 51% Potentiae Computatoriae:\*\* Acquirere 51% iurium emissionis requireret potestatem super 51% instrumentorum intelligentium orbis terrarum, quod oeconomice infeasibile est.
-
-
-
-\---
+- \*\*Immunitas contra Impetum 51% Potentiae Computatoriae:\*\* Acquirere 51% iurium emissionis requireret potestatem super 51% instrumentorum intelligentium orbis terrarum, quod oeconomice infeasibile est.
 
 
 
-\## Furcae et Evolutio
+---
+
+
+
+## Furcae et Evolutio
 
 
 
@@ -376,15 +376,15 @@ Absoluta Isolatio Dimensionis Temporalis: Scalae temporales diversarum catenarum
 
 
 
-\---
+---
 
 
 
-\## Declaratio Philosophica Nummi Temporis
+## Declaratio Philosophica Nummi Temporis
 
 
 
-\### Decentralisatio Absoluta: Dissolutio Totalis Potestatis et Ortus Systematis Per Se Evidentis
+### Decentralisatio Absoluta: Dissolutio Totalis Potestatis et Ortus Systematis Per Se Evidentis
 
 
 
@@ -416,11 +416,11 @@ Nullae propositiones, nulli dies suffragiorum, nulla comitia gubernationis commu
 
 
 
-\---
+---
 
 
 
-\## Conclusio
+## Conclusio
 
 
 
@@ -428,9 +428,9 @@ Nummus Temporis non est substitutio Bitcoini, sed completio Bitcoini.
 
 
 
-\- Bitcoin effecit “illibabilitatem stirpis existentis”.
+- Bitcoin effecit “illibabilitatem stirpis existentis”.
 
-\- Nummus Temporis efficit “aequam participationem incrementi” et “perspicuitatem totius catenae”.
+- Nummus Temporis efficit “aequam participationem incrementi” et “perspicuitatem totius catenae”.
 
 
 
@@ -448,11 +448,11 @@ Nummus Temporis nullas regulas novas creavit; solummodo leges fundamentales univ
 
 
 
-\---
+---
 
 
 
-\## Appendix
+## Appendix
 
 
 
